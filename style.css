@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+section p, ul, ol {
+    font-size: 1.1rem;
+    margin: 10px auto;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+ul, ol {
+    text-align: left;
+    margin: 0 auto;
+}
+
+.center-image {
+    width: 500px; /* Fixed width */
+    height: 400px; /* Fixed height */
+    object-fit: cover; /* Ensures the image scales to fit without distortion */
+    /* border: 3px solid #ddd; Optional: Adds a border */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    margin: 20px auto;
+    display: block; /* Centers the image */
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px;
+}
